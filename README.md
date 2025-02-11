@@ -1,24 +1,42 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Pizza Factory Service
 
-Things you may want to cover:
+A simple service that simulates an online pizza ordering system, handling pizza types, toppings, crusts, and sides. The service calculates total order costs, validates inventory, and ensures business rules for vegetarian and non-vegetarian pizza toppings are respected.
 
-* Ruby version
+## Features
 
-* System dependencies
+- **Order Management**: Create and manage pizza orders with different types, sizes, crusts, and toppings.
+- **Inventory Management**: Check and restock pizza ingredients and sides.
+- **Price Calculation**: Automatically calculates the total cost based on pizza type, size, and selected toppings. 
+- **Business Rules**: Validates that vegetarian pizzas only have vegetarian toppings and vice versa.
 
-* Configuration
+## Technology Stack
 
-* Database creation
+- Ruby on Rails
+- RSpec for testing
+- Git for version control
 
-* Database initialization
+### Prerequisites
 
-* How to run the test suite
+Make sure you have the following installed on your system:
 
-* Services (job queues, cache servers, search engines, etc.)
+- Ruby (version 2.x or higher)
+- Rails (version 5.x or higher)
+- Bundler (for managing dependencies)
 
-* Deployment instructions
 
+
+### Running the Service
+
+To run the service, simply start your Rails server:
+
+
+rails server
+
+Running Tests
+  To run the RSpec tests, execute the following command:
+
+
+  bundle exec rspec
 * ...
